@@ -11,7 +11,7 @@ import time, calendar
 from datetime import date
 from telebot import types
 
-with open("token.txt") as f:
+with open("token.txt") as f:   # importing security token
     TOKEN = f.read()
     print(TOKEN)
 
