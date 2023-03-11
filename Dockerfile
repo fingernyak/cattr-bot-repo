@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY bot.py /app
+COPY bot.py token.txt /app
 
 # Install required dependencies
 RUN pip install -y pyTelegramBotAPI
